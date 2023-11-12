@@ -1,0 +1,47 @@
+:root {
+    --bg-main: #F5F5F5;
+
+    --font-large: 2.5rem;
+    --font-medium: 1.5rem;
+    --font-base: 1.2rem;
+
+    --margin-base: 1.2rem;
+}
+
+body {
+    background-color: var(--bg-main);
+    font-size: var(--font-);
+    font-family: sans-serif; 
+}
+
+h1 {
+    font-size: var(--font-large);
+    margin-top: var(--font-large);
+    margin-bottom: var(--font-large);
+    font-weight: bold;
+}
+
+h2 {
+    font-size: var(--font-medium);
+    margin-top: var(--font-medium);
+    margin-bottom: var(--font-medium);
+    font-weight: bold;
+}
+
+main {
+    margin: auto;
+    width: 90%;
+    line-height: 1.5rem;
+    text-align: justify;    
+}
+
+p {
+    margin-top: var(--margin-base);
+    margin-bottom: var(--margin-base);
+}
+
+@media (min-width: 1000px) {
+    main {
+        width: 50%;
+    }
+}
