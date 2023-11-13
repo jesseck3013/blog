@@ -1,0 +1,12 @@
+{% set postList = search.pages("type=post", "date=desc") %}
+
+<ul>
+  {% for page in postList %}
+  <li>
+    <div class="post">
+        <a href={{ page.data.url }}>{{ page.data.title }}</a>
+        <div>{{ page.data.date | date('MM/dd/yyyy') }}</div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

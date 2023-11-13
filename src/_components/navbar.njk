@@ -1,0 +1,14 @@
+<div class="navbar">
+    <div class="title">
+        <a href="/">{{ siteTitle }}</a>
+    </div>
+    <ul class="navbar-item">
+        {% for name, path in menu %}
+        <li>
+            <a href={{ path }}>{{ name }}</a>
+        </li>        
+        {% endfor %}
+    </ul>
+</div>
+
+<hr />

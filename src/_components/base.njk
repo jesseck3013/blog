@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title | safe }}</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <title>{{ title }} | {{ siteTitle }}</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <main>
-        {{ content | safe }}
+    <main>        
+        {{ comp.navbar() | safe }}
+
+        <h1  class="post-title">{{ title | safe }} </h1>
+
+        {{ content | safe }}        
     </main>
 </body>
 </html>

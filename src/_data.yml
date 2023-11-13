@@ -1,5 +1,5 @@
-archive:
-  url: /archive
+siteTitle: Jesse's website
 
-tags:
-  url: /tags
+menu:
+  Archive: /archive
+  Library: /library
