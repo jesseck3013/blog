@@ -12,12 +12,12 @@ const toTitle = (str: string): string => {
 
 export default function (title: string) {
   const slug = title.replace(/\s+/g, "-").toLowerCase();
-  const today = new Date();
+  const today = new Date().toLocaleDateString("en-ca");
   return {
-    path: `/posts/${slug}.md`,
+    path: `/posts/${today.replaceAll("-", "")}_${slug}.md`,
     content: {
       title: toTitle(title),
-      date: today.toLocaleDateString("en-ca"),
+      date: today,
       content: "",
     },
   };
