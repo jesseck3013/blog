@@ -1,0 +1,6 @@
+<h1>Projects</h1>
+<div class="projects">
+    {% for project in projects %}
+    {{ comp.project_card({title: project.title, description: project.description, url_description: project.url_description, url: project.url}) | safe }}
+    {% endfor %}
+</div>

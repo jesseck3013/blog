@@ -3,3 +3,9 @@ siteTitle: Jesse's website
 menu:
   Archive: /archive
   Library: /library
+
+projects:
+  - title: football-data-node
+    description: A node.js client to football-data v4 API.
+    url_description: Docs
+    url: https://github.com/jesseck3013/football-data-node

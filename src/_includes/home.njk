@@ -1,5 +1,5 @@
 {# insert recent post component below the main content of the home page #}
-{% set content = [content, comp.recent_posts()] | join %}
+{% set content = [content, comp.projects(), comp.recent_posts()] | join %}
 
 {{ comp.base({content: content, title: title }) | safe }}
 

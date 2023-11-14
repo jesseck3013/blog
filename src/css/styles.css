@@ -139,8 +139,37 @@ a:hover {
     text-align: center;
 }
 
+.project-card {
+    border: 0.2rem solid black;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    margin-left: var(--margin-base);    
+    margin-right: var(--margin-base);
+    margin-bottom: var(--margin-base);
+    display: flex;  
+    flex-direction: column;
+}
+
+.project-title {    
+    font-weight: bold;
+    font-size: var(--font-medium);
+}
+
+.project-content {    
+    flex-grow: 1;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media (min-width: 1000px) {
     main {
+        width: 40%;
+    }
+
+    .project-card {
         width: 40%;
     }
 }
