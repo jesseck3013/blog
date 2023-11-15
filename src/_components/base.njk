@@ -9,11 +9,14 @@
 </head>
 <body>
     <main>        
+        
         {{ comp.navbar() | safe }}
 
-        <h1  class="post-title">{{ title | safe }} </h1>
-
-        {{ content | safe }}        
+        <h1  class="post-title">{{ title }} </h1>
+        
+        {{ content | safe }}
+        
+        {{ date | date }}
     </main>
 </body>
 </html>
