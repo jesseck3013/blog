@@ -6,7 +6,7 @@ date: 2023-11-16
 This year, I've read some of the best selling self-help books on Amazon, such as
 "The Subtle Art of Not Giving a F*ck" by Mark Manson, "10x is Easier Than 2x" by
 Benjamin Hardy and Dan Sullivan, and I've come to the conclusion that you don't
-need any self-help books.
+need any one of them.
 
 The primary problem with self-help books is that they often confuse correlation
 and causation. The pattern of a self-help book usually involves claiming an idea
@@ -34,7 +34,7 @@ playing it safe. They do not invent new concepts, but rephrase ideas that have
 been argued more rigorously from philosophy, psychology or some other domains.
 
 What if I want to become a better version of myself, that's great. You don't
-need any self-help book for that. Nobody knows your own problem better than you
+need any self-help books for that. Nobody knows your own problem better than you
 do. Try solving them on your own, whether it is learning a new skill,
 cultivating a new habit or something else. Improvement comes from solving
 problems rather than reading a book that tells you how to get rich quick.
