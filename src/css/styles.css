@@ -117,6 +117,10 @@ p {
     margin-top: var(--margin-base);
 }
 
+.post-date {
+    margin-left: var(--margin-base);    
+}
+
 ul {
     list-style-type: disc;
 }
